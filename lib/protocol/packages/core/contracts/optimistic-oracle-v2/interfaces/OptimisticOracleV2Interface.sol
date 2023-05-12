@@ -9,6 +9,8 @@ import "../../data-verification-mechanism/interfaces/FinderInterface.sol";
  * @dev Interface used by financial contracts to interact with the Oracle. Voters will use a different interface.
  */
 abstract contract OptimisticOracleV2Interface {
+
+
     event RequestPrice(
         address indexed requester,
         bytes32 identifier,

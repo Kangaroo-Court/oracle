@@ -4,6 +4,10 @@ pragma solidity ^0.8.14;
 import "@uma/core/contracts/optimistic-oracle-v2/interfaces/OptimisticOracleV2Interface.sol";
 
 
+    //TODO:
+    // modifier for onlyAttestion => settler or disputes
+    // modifier for onlyJury => disputer
+
 
 // *************************************
 // *   Minimum Viable OO Intergration  *
